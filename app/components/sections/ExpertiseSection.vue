@@ -15,7 +15,6 @@
     />
 
     <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
-
       <!-- Heading -->
       <div class="max-w-3xl">
         <div class="flex items-center gap-3">
@@ -51,7 +50,6 @@
       <div
         class="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3"
       >
-
         <!-- Architecture -->
         <article
           class="group relative overflow-hidden rounded-3xl
@@ -274,7 +272,6 @@
             <span class="tag">Git</span>
           </div>
         </article>
-
       </div>
 
       <!-- Approach -->
@@ -285,7 +282,6 @@
           class="grid items-center gap-10 px-8 py-10
                  lg:grid-cols-[1fr_auto] lg:px-12 lg:py-12"
         >
-
           <div>
             <p
               class="text-sm font-semibold uppercase
@@ -336,7 +332,6 @@
               Solution
             </span>
           </div>
-
         </div>
       </div>
     </div>

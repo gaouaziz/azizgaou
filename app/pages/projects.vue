@@ -108,10 +108,8 @@ const projects = [
 
 <template>
   <main>
-
     <!-- Hero -->
     <section class="relative overflow-hidden bg-gray-950 py-32 sm:py-40">
-
       <!-- Header -->
       <AppHeader />
       <div
@@ -126,7 +124,6 @@ const projects = [
 
       <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div class="max-w-3xl">
-
           <p
             class="text-sm font-semibold uppercase tracking-[0.2em]
                    text-primary-400"
@@ -148,7 +145,6 @@ const projects = [
             de l’architecture backend à l’intégration de systèmes et
             l’automatisation.
           </p>
-
         </div>
       </div>
     </section>
@@ -156,7 +152,6 @@ const projects = [
     <!-- Projects -->
     <section class="bg-gray-50 py-24 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
-
         <!-- Intro -->
         <div class="max-w-3xl">
           <div class="flex items-center gap-3">
@@ -197,14 +192,12 @@ const projects = [
             v-bind="project"
           />
         </div>
-
       </div>
     </section>
 
     <!-- CTA -->
     <section class="bg-white py-24 sm:py-32">
       <div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
-
         <p
           class="text-sm font-semibold uppercase tracking-[0.2em]
                  text-primary"
@@ -239,9 +232,7 @@ const projects = [
             />
           </a>
         </div>
-
       </div>
     </section>
-
   </main>
 </template>

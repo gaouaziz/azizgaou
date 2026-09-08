@@ -2,7 +2,6 @@
   <main>
     <!-- Hero -->
     <section class="relative overflow-hidden bg-gray-950">
-
       <!-- Header -->
       <AppHeader />
       <div class="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-800" />

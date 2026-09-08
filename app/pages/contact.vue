@@ -22,7 +22,6 @@ const contactLinks = [
   <main>
     <!-- Hero -->
     <section class="relative overflow-hidden bg-gray-950">
-
       <!-- Header -->
       <AppHeader />
       <div

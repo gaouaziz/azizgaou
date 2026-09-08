@@ -34,7 +34,6 @@
 
     <!-- Content -->
     <div class="flex flex-1 flex-col p-8">
-
       <div class="flex items-start justify-between gap-4">
         <div>
           <p class="text-sm font-medium text-primary">
@@ -103,7 +102,6 @@
           />
         </span>
       </div>
-
     </div>
   </article>
 </template>

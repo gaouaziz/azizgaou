@@ -10,7 +10,6 @@
     />
 
     <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
-
       <!-- Heading -->
       <div class="max-w-3xl">
         <div class="flex items-center gap-3">
@@ -39,7 +38,6 @@
 
       <!-- Skills -->
       <div class="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-
         <!-- Backend -->
         <article class="skill-card">
           <div class="skill-icon">
@@ -289,13 +287,11 @@
             <span class="tag">Code Review</span>
           </div>
         </article>
-
       </div>
 
       <!-- Bottom statement -->
       <div class="mt-20 rounded-3xl bg-gray-950 px-8 py-10 lg:px-12 lg:py-12">
         <div class="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
-
           <div>
             <p
               class="text-sm font-semibold uppercase tracking-[0.2em] text-primary-400"
@@ -331,10 +327,8 @@
               class="h-4 w-4"
             />
           </a>
-
         </div>
       </div>
-
     </div>
   </section>
 </template>

@@ -10,7 +10,6 @@
     />
 
     <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
-
       <!-- Heading -->
       <div class="max-w-3xl">
         <div class="flex items-center gap-3">
@@ -39,7 +38,6 @@
 
       <!-- Timeline -->
       <div class="mt-20">
-
         <!-- Flyer.be -->
         <article class="relative border-l border-gray-200 pb-16 pl-8 sm:pl-12">
           <div
@@ -204,9 +202,7 @@
             </div>
           </div>
         </article>
-
       </div>
-
     </div>
   </section>
 </template>

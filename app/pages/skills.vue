@@ -4,10 +4,8 @@ import SkillsSection from '~/components/sections/SkillsSection.vue'
 
 <template>
   <main>
-
     <!-- Hero -->
     <section class="relative overflow-hidden bg-gray-950 py-32 sm:py-40">
-
       <!-- Header -->
       <AppHeader />
       <div
@@ -20,7 +18,6 @@ import SkillsSection from '~/components/sections/SkillsSection.vue'
 
       <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
         <div class="max-w-3xl">
-
           <p
             class="text-sm font-semibold uppercase tracking-[0.2em] text-primary-400"
           >
@@ -38,13 +35,11 @@ import SkillsSection from '~/components/sections/SkillsSection.vue'
             l'architecture, des APIs, de l'intégration et des technologies
             modernes du web.
           </p>
-
         </div>
       </div>
     </section>
 
     <!-- Skills -->
     <SkillsSection />
-
   </main>
 </template>

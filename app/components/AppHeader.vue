@@ -1,20 +1,21 @@
 <script setup lang="ts">
-  import { ref, onMounted, onBeforeUnmount } from 'vue'
-  const isMenuOpen = ref(false)
-  const isScrolled = ref(false)
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-  const navigation = [
-    { label: 'Home', href: '/' },
-    { label: 'Experience', href: '/experience' },
-    { label: 'Projects', href: '/projects' },
-    { label: 'Skills', href: '/skills' },
-    { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' },
-  ]
+const isMenuOpen = ref(false)
+const isScrolled = ref(false)
 
-  const closeMenu = () => {
-    isMenuOpen.value = false
-  }
+const navigation = [
+  { label: 'Home', href: '/' },
+  { label: 'Experience', href: '/experience' },
+  { label: 'Projects', href: '/projects' },
+  { label: 'Skills', href: '/skills' },
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' }
+]
+
+const closeMenu = () => {
+  isMenuOpen.value = false
+}
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 50
@@ -41,10 +42,9 @@ onBeforeUnmount(() => {
   >
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div
-  class="flex items-center justify-between transition-all duration-300"
-  :class="isScrolled ? 'h-16' : 'h-20'"
->
-
+        class="flex items-center justify-between transition-all duration-300"
+        :class="isScrolled ? 'h-16' : 'h-20'"
+      >
         <!-- Logo -->
         <a
           href="#home"

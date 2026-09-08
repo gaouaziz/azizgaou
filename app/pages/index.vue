@@ -1,29 +1,25 @@
 <template>
   <main>
+    <!-- Hero -->
+    <section
+      id="home"
+      class="relative min-h-screen overflow-hidden bg-gray-950"
+    >
+      <!-- Hero background -->
+      <HeroBackground />
 
-  <!-- Hero -->
-  <section
-    id="home"
-    class="relative min-h-screen overflow-hidden bg-gray-950"
-  >
+      <!-- Header -->
+      <AppHeader />
 
-    <!-- Hero background -->
-    <HeroBackground />
+      <!-- Hero content -->
+      <HeroContent />
+    </section>
 
-    <!-- Header -->
-    <AppHeader />
-
-    <!-- Hero content -->
-    <HeroContent />
-
-  </section>
-
-  <!-- Expertise -->
-  <ExpertiseSection />
-
+    <!-- Expertise -->
+    <ExpertiseSection />
   </main>
 </template>
 
 <script setup lang="ts">
-  import ExpertiseSection from '~/components/sections/ExpertiseSection.vue'
+import ExpertiseSection from '~/components/sections/ExpertiseSection.vue'
 </script>

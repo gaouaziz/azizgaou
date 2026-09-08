@@ -1,17 +1,15 @@
 <template>
   <footer class="bg-gray-950 text-white">
     <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-
       <!-- Main footer -->
       <div
         class="flex flex-col gap-10 border-b border-white/10 pb-12
                md:flex-row md:items-start md:justify-between"
       >
-
         <!-- Identity -->
         <div class="max-w-md">
           <a
-            href="#home"
+            href="/"
             class="text-2xl font-bold tracking-tight"
           >
             Aziz
@@ -136,7 +134,6 @@
           Senior Full Stack Developer
         </p>
       </div>
-
     </div>
   </footer>
 </template>
