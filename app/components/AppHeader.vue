@@ -4,13 +4,12 @@
   const isScrolled = ref(false)
 
   const navigation = [
-    { label: 'Home', href: '#home' },
-    { label: 'Expertise', href: '#expertise' },
-    { label: 'Experience', href: '#experience' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'About', href: '#about' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Home', href: '/' },
+    { label: 'Experience', href: '/experience' },
+    { label: 'Projects', href: '/projects' },
+    { label: 'Skills', href: '/skills' },
+    { label: 'About', href: '/about' },
+    { label: 'Contact', href: '/contact' },
   ]
 
   const closeMenu = () => {

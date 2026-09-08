@@ -50,7 +50,7 @@
           <div class="mt-9 flex flex-wrap gap-4">
 
             <a
-              href="#experience"
+              href="/experience"
               class="inline-flex items-center rounded-full
                      bg-blue-500 px-7 py-3.5
                      text-sm font-semibold text-white
@@ -62,7 +62,7 @@
             </a>
 
             <a
-              href="mailto:aziz@gaou.info"
+              href="/contact" 
               class="inline-flex items-center rounded-full
                      border border-white/40 px-7 py-3.5
                      text-sm font-semibold text-white
