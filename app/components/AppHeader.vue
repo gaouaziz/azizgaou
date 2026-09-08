@@ -47,7 +47,7 @@ onBeforeUnmount(() => {
       >
         <!-- Logo -->
         <a
-          href="#home"
+          href="/"
           class="text-xl font-bold tracking-tight text-white"
         >
           Aziz <span class="font-normal opacity-80">Gaou</span>
