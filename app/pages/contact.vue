@@ -1,23 +1,3 @@
-<script setup lang="ts">
-const contactLinks = [
-  {
-    label: 'Email',
-    value: 'aziz@gaou.info',
-    href: 'mailto:aziz@gaou.info'
-  },
-  {
-    label: 'LinkedIn',
-    value: 'Mon profil LinkedIn',
-    href: 'https://www.linkedin.com/in/aziz-gaou/'
-  },
-  {
-    label: 'GitHub',
-    value: 'Mes projets GitHub',
-    href: 'https://github.com/gaouaziz'
-  }
-]
-</script>
-
 <template>
   <main>
     <!-- Hero -->
@@ -147,3 +127,28 @@ const contactLinks = [
     </section>
   </main>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Contact — Aziz Gaou',
+  description:
+    'Contact Aziz Gaou, Senior Full Stack Developer, for professional opportunities, web projects, technical architecture, APIs and automation.'
+})
+const contactLinks = [
+  {
+    label: 'Email',
+    value: 'aziz@gaou.info',
+    href: 'mailto:aziz@gaou.info'
+  },
+  {
+    label: 'LinkedIn',
+    value: 'Mon profil LinkedIn',
+    href: 'https://www.linkedin.com/in/aziz-gaou/'
+  },
+  {
+    label: 'GitHub',
+    value: 'Mes projets GitHub',
+    href: 'https://github.com/gaouaziz'
+  }
+]
+</script>

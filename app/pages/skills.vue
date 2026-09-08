@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import SkillsSection from '~/components/sections/SkillsSection.vue'
-</script>
-
 <template>
   <main>
     <!-- Hero -->
@@ -43,3 +39,13 @@ import SkillsSection from '~/components/sections/SkillsSection.vue'
     <SkillsSection />
   </main>
 </template>
+
+<script setup lang="ts">
+import SkillsSection from '~/components/sections/SkillsSection.vue'
+
+useSeoMeta({
+  title: 'About — Aziz Gaou',
+  description:
+    'Learn more about Aziz Gaou, Senior Full Stack Developer, his professional journey, engineering approach and experience designing business-oriented web solutions.'
+})
+</script>

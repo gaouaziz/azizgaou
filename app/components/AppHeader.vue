@@ -48,9 +48,17 @@ onBeforeUnmount(() => {
         <!-- Logo -->
         <a
           href="/"
-          class="text-xl font-bold tracking-tight text-white"
+          class="flex items-center gap-3"
         >
-          Aziz <span class="font-normal opacity-80">Gaou</span>
+          <img
+            src="/images/aziz-gaou-avatar.png"
+            alt="Aziz Gaou"
+            class="h-10 w-10 rounded-full object-cover ring-1 ring-white/20"
+          >
+
+          <span class="text-xl font-bold tracking-tight text-white">
+            Aziz <span class="font-normal opacity-80">Gaou</span>
+          </span>
         </a>
 
         <!-- Desktop navigation -->

@@ -43,4 +43,10 @@
 
 <script setup lang="ts">
 import ExperienceTimeline from '~/components/sections/ExperienceTimeline.vue'
+
+useSeoMeta({
+  title: 'Experience — Aziz Gaou',
+  description:
+    'Professional experience of Aziz Gaou, Senior Full Stack Developer, with over 10 years of experience building and evolving web and business applications.'
+})
 </script>

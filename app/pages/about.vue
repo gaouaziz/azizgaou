@@ -206,3 +206,11 @@
     </section>
   </main>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'About — Aziz Gaou',
+  description:
+    'Learn more about Aziz Gaou, Senior Full Stack Developer, his professional journey, engineering approach and experience designing business-oriented web solutions.'
+})
+</script>

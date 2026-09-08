@@ -1,111 +1,3 @@
-<script setup lang="ts">
-import ProjectCard from '~/components/sections/ProjectCard.vue'
-
-const projects = [
-  {
-    title: 'Plateforme e-commerce d’impression',
-    company: 'Flyer.be — The Original',
-    category: 'E-commerce · Architecture',
-    description:
-      'Évolution d’une plateforme e-commerce dédiée aux produits imprimés et personnalisables. Participation au développement de fonctionnalités métier et à l’évolution d’une architecture basée sur CQRS, Event Sourcing et Process Manager.',
-    technologies: [
-      'PHP',
-      'Mezzio',
-      'CQRS',
-      'Event Sourcing',
-      'Prooph',
-      'PostgreSQL'
-    ],
-    icon: 'i-lucide-shopping-cart',
-    featured: true
-  },
-
-  {
-    title: 'Intégration Probo',
-    company: 'Flyer.be — The Original',
-    category: 'Integration · E-commerce',
-    description:
-      'Mise en place d’un processus d’import de catalogues et de configurations produits complexes provenant de Probo, avec gestion des options imbriquées, relations parent/enfant, données multilingues, images et accessoires.',
-    technologies: [
-      'PHP',
-      'Probo',
-      'Symfony Console',
-      'APIs',
-      'CLI'
-    ],
-    icon: 'i-lucide-package',
-    featured: true
-  },
-
-  {
-    title: 'Intégration PF Concept',
-    company: 'Flyer.be — The Original',
-    category: 'Integration · Products',
-    description:
-      'Intégration de produits promotionnels et de leurs configurations : caractéristiques, options, couleurs, faces, zones d’impression, accessoires et informations multilingues.',
-    technologies: [
-      'PHP',
-      'PF Concept',
-      'Symfony Console',
-      'APIs',
-      'CLI'
-    ],
-    icon: 'i-lucide-box',
-    featured: true
-  },
-
-  {
-    title: 'Automatisation Flyeralarm',
-    company: 'Flyer.be — The Original',
-    category: 'Automation · API',
-    description:
-      'Développement d’un service REST permettant d’automatiser la configuration de produits et le parcours de commande Flyeralarm jusqu’à la génération du lien de paiement.',
-    technologies: [
-      'Python',
-      'FastAPI',
-      'Playwright',
-      'REST API',
-      'Automation'
-    ],
-    icon: 'i-lucide-bot',
-    featured: true
-  },
-
-  {
-    title: 'Solutions web métier',
-    company: 'Hsabati',
-    category: 'Web · Full Stack',
-    description:
-      'Développement et évolution de solutions web répondant à différents besoins métier, avec une attention particulière portée au backend, aux APIs et à l’intégration des différents composants.',
-    technologies: [
-      'PHP',
-      'Python',
-      'JavaScript',
-      'APIs',
-      'MySQL'
-    ],
-    icon: 'i-lucide-layout-dashboard'
-  },
-
-  {
-    title: 'Applications web',
-    company: 'bnet Technologies',
-    category: 'Web · Full Stack',
-    description:
-      'Développement de différentes applications web et solutions métier, avec une évolution progressive vers le backend, les bases de données, les APIs et l’architecture applicative.',
-    technologies: [
-      'PHP',
-      'CodeIgniter',
-      'Zend Framework',
-      'Java',
-      'MySQL',
-      'SQL Server'
-    ],
-    icon: 'i-lucide-code-2'
-  }
-]
-</script>
-
 <template>
   <main>
     <!-- Hero -->
@@ -236,3 +128,117 @@ const projects = [
     </section>
   </main>
 </template>
+
+<script setup lang="ts">
+import ProjectCard from '~/components/sections/ProjectCard.vue'
+
+useSeoMeta({
+  title: 'Projects — Aziz Gaou',
+  description:
+    'Selected projects in e-commerce, software architecture, APIs, external integrations, product automation and business applications.'
+})
+
+const projects = [
+  {
+    title: 'Plateforme e-commerce d’impression',
+    company: 'Flyer.be — The Original',
+    category: 'E-commerce · Architecture',
+    description:
+      'Évolution d’une plateforme e-commerce dédiée aux produits imprimés et personnalisables. Participation au développement de fonctionnalités métier et à l’évolution d’une architecture basée sur CQRS, Event Sourcing et Process Manager.',
+    technologies: [
+      'PHP',
+      'Mezzio',
+      'CQRS',
+      'Event Sourcing',
+      'Prooph',
+      'PostgreSQL'
+    ],
+    icon: 'i-lucide-shopping-cart',
+    featured: true
+  },
+
+  {
+    title: 'Intégration Probo',
+    company: 'Flyer.be — The Original',
+    category: 'Integration · E-commerce',
+    description:
+      'Mise en place d’un processus d’import de catalogues et de configurations produits complexes provenant de Probo, avec gestion des options imbriquées, relations parent/enfant, données multilingues, images et accessoires.',
+    technologies: [
+      'PHP',
+      'Probo',
+      'Symfony Console',
+      'APIs',
+      'CLI'
+    ],
+    icon: 'i-lucide-package',
+    featured: true
+  },
+
+  {
+    title: 'Intégration PF Concept',
+    company: 'Flyer.be — The Original',
+    category: 'Integration · Products',
+    description:
+      'Intégration de produits promotionnels et de leurs configurations : caractéristiques, options, couleurs, faces, zones d’impression, accessoires et informations multilingues.',
+    technologies: [
+      'PHP',
+      'PF Concept',
+      'Symfony Console',
+      'APIs',
+      'CLI'
+    ],
+    icon: 'i-lucide-box',
+    featured: true
+  },
+
+  {
+    title: 'Automatisation Flyeralarm',
+    company: 'Flyer.be — The Original',
+    category: 'Automation · API',
+    description:
+      'Développement d’un service REST permettant d’automatiser la configuration de produits et le parcours de commande Flyeralarm jusqu’à la génération du lien de paiement.',
+    technologies: [
+      'Python',
+      'FastAPI',
+      'Playwright',
+      'REST API',
+      'Automation'
+    ],
+    icon: 'i-lucide-bot',
+    featured: true
+  },
+
+  {
+    title: 'Solutions web métier',
+    company: 'Hsabati',
+    category: 'Web · Full Stack',
+    description:
+      'Développement et évolution de solutions web répondant à différents besoins métier, avec une attention particulière portée au backend, aux APIs et à l’intégration des différents composants.',
+    technologies: [
+      'PHP',
+      'Python',
+      'JavaScript',
+      'APIs',
+      'MySQL'
+    ],
+    icon: 'i-lucide-layout-dashboard'
+  },
+
+  {
+    title: 'Applications web',
+    company: 'bnet Technologies',
+    category: 'Web · Full Stack',
+    description:
+      'Développement de différentes applications web et solutions métier, avec une évolution progressive vers le backend, les bases de données, les APIs et l’architecture applicative.',
+    technologies: [
+      'PHP',
+      'CodeIgniter',
+      'Zend Framework',
+      'Java',
+      'MySQL',
+      'SQL Server'
+    ],
+    icon: 'i-lucide-code-2'
+  }
+]
+</script>
