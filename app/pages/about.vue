@@ -28,36 +28,84 @@
     <!-- Introduction -->
     <section class="bg-white">
       <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
-        <div class="grid gap-12 lg:grid-cols-2 lg:gap-20">
+        <div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
+          <!-- Photo -->
+          <div class="relative">
+            <!-- Decorative shape -->
+            <div
+              class="absolute -left-6 -top-6 h-40 w-40 rounded-full bg-blue-50"
+            />
+
+            <div
+              class="absolute -bottom-6 -right-6 h-32 w-32 rounded-full bg-gray-100"
+            />
+
+            <!-- Image -->
+            <div class="relative overflow-hidden rounded-3xl">
+              <img
+                src="/images/aziz-about.jpeg"
+                alt="Aziz Gaou"
+                class="aspect-[4/5] w-full object-cover"
+              >
+            </div>
+          </div>
+
+          <!-- Content -->
           <div>
-            <p class="text-sm font-semibold uppercase tracking-widest text-gray-400">
+            <p
+              class="flex items-center gap-3 text-sm font-semibold uppercase tracking-widest text-gray-400"
+            >
+              <span class="h-[2px] w-10 bg-blue-500" />
               Mon parcours
             </p>
 
-            <h2 class="mt-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2
+              class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+            >
               Plus de 10 ans à résoudre des problématiques métier.
             </h2>
-          </div>
 
-          <div class="space-y-5 text-base leading-7 text-gray-600">
-            <p>
-              Mon parcours m'a permis de travailler sur des applications web
-              dans différents domaines et sur des problématiques techniques
-              variées.
-            </p>
+            <div class="mt-8 space-y-5 text-base leading-7 text-gray-600">
+              <p>
+                Mon parcours m'a permis de travailler sur des applications web
+                dans différents domaines et sur des problématiques techniques
+                variées.
+              </p>
 
-            <p>
-              Au fil des années, j'ai évolué du développement d'applications
-              vers des responsabilités plus larges autour de l'analyse des
-              besoins, de la conception technique, de l'architecture et de
-              l'intégration de systèmes externes.
-            </p>
+              <p>
+                Au fil des années, j'ai évolué du développement d'applications
+                vers des responsabilités plus larges autour de l'analyse des
+                besoins, de la conception technique, de l'architecture et de
+                l'intégration de systèmes externes.
+              </p>
 
-            <p>
-              Aujourd'hui, j'interviens principalement sur des solutions
-              métier où la compréhension du domaine est aussi importante que
-              la maîtrise de la technologie.
-            </p>
+              <p>
+                Aujourd'hui, j'interviens principalement sur des solutions
+                métier où la compréhension du domaine est aussi importante que
+                la maîtrise de la technologie.
+              </p>
+            </div>
+
+            <!-- Highlights -->
+            <div class="mt-8 grid grid-cols-2 gap-6 border-t border-gray-200 pt-8">
+              <div>
+                <p class="text-3xl font-bold text-gray-900">
+                  10+
+                </p>
+                <p class="mt-1 text-sm text-gray-500">
+                  ans d'expérience
+                </p>
+              </div>
+
+              <div>
+                <p class="text-3xl font-bold text-gray-900">
+                  Full Stack
+                </p>
+                <p class="mt-1 text-sm text-gray-500">
+                  Backend & Frontend
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
