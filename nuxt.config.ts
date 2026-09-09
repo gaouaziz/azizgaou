@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxt/icon'
   ],
 
   devtools: {
@@ -24,5 +25,19 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  icon: {
+    // 1. Force the module to statically scan components for icons at build time
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 512
+    },
+    // 2. Lock down the local bundle collections
+    serverBundle: {
+      collections: ['lucide', 'simple-icons']
+    },
+    // 3. Completely shut off network requests to the Iconify API
+    fallbackToApi: false
   }
 })
