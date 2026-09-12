@@ -1,5 +1,5 @@
 # Use an official Node LTS (Long Term Support) version as the base image
-FROM node:lts
+FROM node:22-alpine
 
 # Install project dependencies
 RUN npm install -g @vue/cli
