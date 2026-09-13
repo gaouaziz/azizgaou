@@ -144,11 +144,6 @@ const contactLinks = [
     label: 'LinkedIn',
     value: 'Mon profil LinkedIn',
     href: 'https://www.linkedin.com/in/aziz-gaou/'
-  },
-  {
-    label: 'GitHub',
-    value: 'Mes projets GitHub',
-    href: 'https://github.com/gaouaziz'
   }
 ]
 </script>

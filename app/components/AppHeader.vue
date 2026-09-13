@@ -10,7 +10,8 @@ const navigation = [
   { label: 'Projects', href: '/projects' },
   { label: 'Skills', href: '/skills' },
   { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' }
+  { label: 'Contact', href: '/contact' },
+  { label: 'Blog', href: '/blog' }
 ]
 
 const closeMenu = () => {
